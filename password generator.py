@@ -18,7 +18,7 @@ random.shuffle(password)
 final_pass = ""
 for i in password:
     final_pass+=i
-print(f"your password is : {final_pass}")
+print(f"YOUR PASSWORD IS : {final_pass}")
 
 
 
