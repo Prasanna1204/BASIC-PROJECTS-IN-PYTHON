@@ -58,7 +58,7 @@ print(f"FINAL SCORE:\n\tYOUR SCORE = {your_score}\n\tCOMPUTER SCORE = {comp_scor
 if your_score > comp_score:
   print("CONGRATULATIONS YOU WON")
 elif your_score == comp_score:
-  print("IT'S A DRAW")
+  print(f"IT'S A DRAW:\n YOUR SCORE:{your_score}\nCOMPUTER SCORE:{comp_score}")
 else:
   print("COMPUTER WON")
 
