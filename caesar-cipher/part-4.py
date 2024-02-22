@@ -14,13 +14,14 @@ def ceaser(direction_ips,word_text,shift_amount):
         else:
              ceaser_cipher+=i
     print(f"The {direction_ips} Text is {ceaser_cipher}")
-while not should_end:
+should_end = True
+while should_end:
   direction = input("Type 'encode' to encrypt, type 'decode' to decrypt:\n")
   text = input("Type your message:\n").lower()
   shift = int(input("Type the shift number:\n"))
   shift = shift % 26
-  ceeser(word_text=text,shift_amount=shift,direction_ips=direction)
+  ceaser(word_text=text,shift_amount=shift,direction_ips=direction)
   restart = input("Type 'yes' if you want to go again. Otherwise type 'no'.\n")
   if restart == "no":
-    should_end = True
+    should_end = False
     print("Goodbye!")
