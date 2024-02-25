@@ -56,7 +56,7 @@ for i in range(no_of_play):
       print(f"IT'S A DRAW\n\tYOUR SCORE = {your_score}\n\tCOMPUTER SCORE = {comp_score}")
 print(f"FINAL SCORE:\n\tYOUR SCORE = {your_score}\n\tCOMPUTER SCORE = {comp_score}")
 if your_score > comp_score:
-  print("CONGRATULATIONS YOU WON")
+  print("CONGRATULATIONS YOU WON!")
 elif your_score == comp_score:
   print(f"IT'S A DRAW:\n YOUR SCORE:{your_score}\nCOMPUTER SCORE:{comp_score}")
 else:
