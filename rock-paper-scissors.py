@@ -60,5 +60,5 @@ if your_score > comp_score:
 elif your_score == comp_score:
   print(f"IT'S A DRAW:\n YOUR SCORE:{your_score}\nCOMPUTER SCORE:{comp_score}")
 else:
-  print("COMPUTER WON")
+  print("COMPUTER WON THE GAME")
 
