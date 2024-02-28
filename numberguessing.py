@@ -25,7 +25,7 @@ def level_hard(computer_no):
             print(f"You go it. The answer is {computer_no}")
             break
 level = input("Choose a difficulty. Type 'Hard' or 'easy': ")
-if level == 'easy':
+if level == 'Easy':
     level_easy(com_no)
 elif level == 'hard':
     level_hard(com_no)
