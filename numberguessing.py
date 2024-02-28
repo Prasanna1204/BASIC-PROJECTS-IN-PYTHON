@@ -27,5 +27,5 @@ def level_hard(computer_no):
 level = input("Choose a difficulty. Type 'Hard' or 'easy': ")
 if level == 'Easy':
     level_easy(com_no)
-elif level == 'hard':
+elif level == 'Hard':
     level_hard(com_no)
